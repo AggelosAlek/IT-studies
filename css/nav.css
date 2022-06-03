@@ -1,0 +1,55 @@
+@media screen and (min-width: 1200px) {
+    #header-nav li a {
+        color: #fff;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #header-nav li {
+        float: left;
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #bars {
+        position: absolute;
+        right: 10px;
+    }
+    #bars button {
+        background: none;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    #header-nav {
+        *display: block;
+        position: absolute;
+        background-color: #fff;
+        top: 60px;
+        right: 0px;
+        border-radius: 10px;
+    }
+    #header-nav li a {
+        color: #000;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #header-nav li {
+        *width: 100%;
+        margin: 30px 0;
+        padding: 0 20px;
+    }
+    #x {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+    #x button {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    #x button i {
+        font-size: 20px;
+    }
+}
